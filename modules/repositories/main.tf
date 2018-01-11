@@ -4,3 +4,9 @@ resource "github_repository" "softeamouest-terraform-github-organization" {
 
   private = "${var.repository_private}"
 }
+
+resource "github_branch_protection" "softeamouest-terraform-github-organization_master" {
+  repository = "softeamouest-terraform-github-organization"
+  branch = "master"
+  enforce_admins = true
+}
