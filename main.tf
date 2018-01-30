@@ -3,18 +3,18 @@ provider "github" {
   organization = "${var.github_organization}"
 }
 
-module "people" {
-  source = "modules/people"
+module "peoples" {
+  source = "peoples"
 }
 
 module "projects" {
-  source = "modules/projects"
+  source = "projects"
 }
 
 module "repositories" {
-  source = "modules/repositories"
+  source = "repositories"
 }
 
 module "teams" {
-  source = "modules/teams"
+  source = "teams"
 }
