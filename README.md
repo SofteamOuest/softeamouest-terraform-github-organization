@@ -14,7 +14,7 @@ Le rôle n'est pas obligatoire si la personne est un membre ordinaire.
 
 ## Ajouter un dépôt
 
-Créer un fichier de configuration Terraform au nom de la personne, exemple `softeamouest-terraform-github-organization.tf` dans le dossier `repositories`
+Créer un fichier de configuration Terraform au nom du dépôt, exemple `softeamouest-terraform-github-organization.tf` dans le dossier `repositories`
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/SofteamOuest/softeamouest-terraform-github-organization/master/docs/softeamouest-terraform-github-organization.tf.png" width="50%" height="50%" title="softeamouest-terraform-github-organization.tf">
@@ -25,3 +25,7 @@ Créer un fichier de configuration Terraform au nom de la personne, exemple `sof
     terraform init
     terraform plan
     terraform apply
+
+## Reference
+
+https://www.terraform.io/docs/providers/github/index.html
