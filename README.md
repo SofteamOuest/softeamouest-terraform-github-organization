@@ -26,6 +26,16 @@ Créer un fichier de configuration Terraform au nom du dépôt, exemple `softeam
     terraform plan
     terraform apply
 
+## Modules
+
+4 modules sont disponibles:
+- People `peoples/membership/main.tf`
+- Project `projects/project/main.tf`
+- Repository `repositories/repository/main.tf`
+- Team `teams/team/main.tf`
+
+Chaque module contient ses valeurs par défaut.
+
 ## Reference
 
 https://www.terraform.io/docs/providers/github/index.html
