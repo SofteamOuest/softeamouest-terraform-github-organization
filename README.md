@@ -2,21 +2,13 @@
 
 For managing SofteamOuest Github Organization
 
-## Become a member
+## Ajouter un membre
 
-Edit `modules/people/main.tf`
+Créer un fichier de configuration Terraform au nom de la personne, exemple `victorsalaun.tf` dans le dossier `peoples`
 
-## Manage projects
+![victorsalaun.tf](/docs/victorsalaun.tf.png?raw=true)
 
-Edit `module/projects/main.tf`
-
-## Manage repositories
-
-Edit `module/people/main.tf`
-
-## Manage teams
-
-Edit `module/teams/main.tf`
+Le rôle n'est pas obligatoire si la personne est un membre ordinaire.
 
 ## Usage 
 
